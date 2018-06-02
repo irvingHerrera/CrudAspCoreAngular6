@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { UsuarioModule } from '../usuario/usuario.module';
+import { TableUserComponent } from '../usuario/table-user/table-user.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { UsuarioModule } from '../usuario/usuario.module';
     NgbModule.forRoot (),
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
+      {path: 'usuario',component: TableUserComponent},
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
     ]),

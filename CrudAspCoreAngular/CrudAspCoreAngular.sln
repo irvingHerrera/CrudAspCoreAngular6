@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAspCoreAngular", "CrudAspCoreAngular\CrudAspCoreAngular.csproj", "{2961F08F-3341-47B8-A970-D82DB8BABE85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAspCoreAngular.Core", "CrudAspCoreAngular.Core\CrudAspCoreAngular.Core.csproj", "{E958DFEC-E496-48D5-BCC7-2E08B9B2B79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAspCoreAngular.Data", "CrudAspCoreAngular.Data\CrudAspCoreAngular.Data.csproj", "{6A513BE2-52F7-4CD4-8B1F-E96622109845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAspCoreAngular.Business", "CrudAspCoreAngular.Business\CrudAspCoreAngular.Business.csproj", "{4E454585-6A22-4B5E-8324-66B6767D19F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{2961F08F-3341-47B8-A970-D82DB8BABE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2961F08F-3341-47B8-A970-D82DB8BABE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2961F08F-3341-47B8-A970-D82DB8BABE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E958DFEC-E496-48D5-BCC7-2E08B9B2B79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E958DFEC-E496-48D5-BCC7-2E08B9B2B79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E958DFEC-E496-48D5-BCC7-2E08B9B2B79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E958DFEC-E496-48D5-BCC7-2E08B9B2B79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A513BE2-52F7-4CD4-8B1F-E96622109845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A513BE2-52F7-4CD4-8B1F-E96622109845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A513BE2-52F7-4CD4-8B1F-E96622109845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A513BE2-52F7-4CD4-8B1F-E96622109845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E454585-6A22-4B5E-8324-66B6767D19F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E454585-6A22-4B5E-8324-66B6767D19F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E454585-6A22-4B5E-8324-66B6767D19F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E454585-6A22-4B5E-8324-66B6767D19F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
